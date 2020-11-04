@@ -13,6 +13,8 @@
 // Description: AXI Lite compatible interface
 //
 
+package clint;
+
 module axi_lite_interface #(
     parameter int unsigned AXI_ADDR_WIDTH = 64,
     parameter int unsigned AXI_DATA_WIDTH = 64,
@@ -22,6 +24,8 @@ module axi_lite_interface #(
 ) (
     input logic                       clk_i,    // Clock
     input logic                       rst_ni,  // Asynchronous reset active low
+
+
 
     input  axi_req_t                  axi_req_i,
     output axi_resp_t                 axi_resp_o,
@@ -138,3 +142,4 @@ module axi_lite_interface #(
     end
 endmodule
 
+endpackage
