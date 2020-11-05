@@ -13,8 +13,6 @@
 // Description: AXI Lite compatible interface
 //
 
-package clint;
-
 module axi_lite_interface #(
     parameter int unsigned AXI_ADDR_WIDTH = 64,
     parameter int unsigned AXI_DATA_WIDTH = 64,
@@ -142,4 +140,3 @@ module axi_lite_interface #(
     end
 endmodule
 
-endpackage

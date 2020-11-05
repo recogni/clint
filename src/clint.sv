@@ -60,7 +60,7 @@ module clint #(
     // -----------------------------
     // AXI Interface Logic
     // -----------------------------
-    clint::axi_lite_interface #(
+    axi_lite_interface #(
         .AXI_ADDR_WIDTH ( AXI_ADDR_WIDTH ),
         .AXI_DATA_WIDTH ( AXI_DATA_WIDTH ),
         .AXI_ID_WIDTH   ( AXI_ID_WIDTH   ),
