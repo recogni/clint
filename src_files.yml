@@ -1,0 +1,4 @@
+clint:
+  files:
+    - src/axi_lite_interface.sv
+    - src/clint.sv
